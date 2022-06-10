@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container max-w-6xl mx-auto">
+        <header class="max-w-4xl mx-auto px-5">
+            <div class="flex justify-end">
+                <button id="button" class="md:hidden">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="44" height="44" fill="currentColor"
+                        class="bi bi-justify" viewBox="0 0 24 24">
+                        <path fill-rule="evenodd"
+                            d="M2 12.5a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5zm0-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5zm0-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5zm0-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5z" />
+                    </svg>
+                </button>
+            </div>
+            <div class="md:flex md:justify-end  text-center ">
+                <ul id="menu" class="hidden md:flex md:space-x-4 font-semibold ">
+                    <li><a href="Works.html" class="hover:text-red-500 ">Works</a></li>
+                    <li><a href="Blog.html" class="hover:text-red-500 ">Blog</a></li>
+                    <li><a href="home.html" class="hover:text-red-500 ">Contact</a></li>
+                </ul>
+            </div>
+
+        </header>
+        <div class="max-w-3xl mx-auto px-5">
+            <h2 class="text-5xl font-bold leading-[60px] mt-10">Blog</h2>
+            <div id="users">
+
+            </div>
+        </div>
+        <footer class="py-10">
+            <div class="max-w-4xl mx-auto px-5">
+                <div class="flex justify-center space-x-4">
+                    <img src="img/fb.png" alt=""><img src="img/insta.png" alt=""><img src="img/Vector.png" alt=""><img
+                        src="img/Linkedin.png" alt="">
+                </div>
+                <p class="text-center mt-5">Copyright ©2020 All rights reserved </p>
+            </div>
+        </footer>
+    </div>
+    <script type="module"  src="./src/js/blog.js"></script>
+</body>
+
+</html>
